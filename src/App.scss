@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Stardos+Stencil:wght@400;700&display=swap');
+
+$main-font: 'Roboto', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: $main-font;
+  background: #F9F9F9;
+}
+
+input,
+select,
+textarea {
+  appearance: none;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}

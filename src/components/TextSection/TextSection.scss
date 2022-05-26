@@ -1,0 +1,32 @@
+.section-container {
+  flex: 1;
+  background: #286EFA;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  // justify-content: center;
+
+  p {
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 0.26px;
+    line-height: 30px;
+  }
+}
+
+.txt-container {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.txt-title {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.26px;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 78px;
+}

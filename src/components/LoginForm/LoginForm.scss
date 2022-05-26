@@ -1,0 +1,119 @@
+.login-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  text-align: left;
+}
+
+.login-title {
+  color: #333333;
+  font-size: max(0.5vw - 1em, 2rem);
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.subtxt {
+  color: #333333;
+  font-weight: 400;
+  font-size: max(0.5vw - 0.8em, 1rem);
+  margin-bottom: 40px;
+
+  a {
+    color: #286EFA;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+}
+
+.form-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 480px;
+  width: 100%;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 50px;
+  box-shadow: none;
+  outline: none;
+  padding: 20px;
+  background: none;
+  border: 1px solid lighten($color: #EDEDED, $amount: 0.5);
+}
+
+input::placeholder {
+  color: #777777;
+  font-size: 15px;
+  letter-spacing: 0.26px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.alert-info {
+  color: #777777;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.26px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+input[type="password"] {
+  margin-bottom: 0;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  border-radius: 4px;
+  background: #286EFA;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.26px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  border: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #EDEDED;
+  color: #AAAAAA;
+}
+
+.submit-info {
+  font-size: 13px;
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: 0.26px;
+  line-height: 25px;
+  max-width: 480px;
+  width: 100%;
+  letter-spacing: 0.26px;
+  font-size: 13px;
+  display: block;
+
+  a {
+    text-decoration: none;
+    color: #286EFA;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+}
